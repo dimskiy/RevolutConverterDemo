@@ -1,0 +1,42 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@android:color/holo_blue_dark</item>
+    </style>
+
+    <style name="TextTitleLargest" parent="AppTheme">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">@dimen/TextSizeL</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="TextTitle" parent="AppTheme">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">@dimen/TextSizeM</item>
+        <item name="android:textColor">@color/textDarkGrey</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <style name="TextSubTitle" parent="AppTheme">
+        <item name="android:textSize">@dimen/TextSizeS</item>
+        <item name="android:textColor">@color/textLightGrey</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+
+    <style name="RateEditField" parent="TextTitleLargest">
+        <item name="android:textAlignment">textEnd</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:textColor">@color/textDarkGrey</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:lineSpacingExtra">5sp</item>
+        <item name="android:translationY">-2.28sp</item>
+    </style>
+
+    <style name="FlagIconHolder" parent="AppTheme">
+        <item name="civ_border_width">0.5dp</item>
+        <item name="civ_border_color">@color/textLightGrey</item>
+    </style>
+
+</resources>

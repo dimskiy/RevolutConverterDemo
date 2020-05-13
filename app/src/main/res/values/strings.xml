@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Converter</string>
+    <string name="rates_screen_title">Rates</string>
+    <string name="currency_icon_description">Currency icon</string>
+    <string name="currency_rate_default_value">0.0</string>
+    <string name="cant_load_currency_rates">Can\'t\u00A0load currency\u00A0rates\u00A0:(\nSwipe\u00A0down to\u00A0try\u00A0again</string>
+</resources>
